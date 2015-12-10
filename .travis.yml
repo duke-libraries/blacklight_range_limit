@@ -5,10 +5,8 @@ language: ruby
 cache: bundler
 sudo: false
 rvm:
-  - 1.9.3
-  - 2.0.0
+  - 2.1
 
 notifications:
-  irc: "irc.freenode.org#blacklight"
   email:
-      - blacklight-commits@googlegroups.com
+    - lib-drs@duke.edu
